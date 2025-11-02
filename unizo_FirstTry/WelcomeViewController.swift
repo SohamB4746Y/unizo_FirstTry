@@ -9,8 +9,10 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var getStartedUiView: UIView!
     @IBOutlet weak var signUpWithEmail: UIButton!
     @IBOutlet weak var signUpWithApple: UIButton!
+    @IBOutlet weak var loginButtonPageOne: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +25,31 @@ class WelcomeViewController: UIViewController {
         signUpWithApple.layer.cornerRadius = 15.0
         signUpWithApple.layer.borderWidth = 2.0
         signUpWithApple.layer.borderColor = UIColor.loginButtonBorder.cgColor
+        
+        getStartedUiView.layer.cornerRadius = 24.0
+        getStartedUiView.layer.masksToBounds = true
     }
+    // NEED TO CHANGE AFTER THIS POINT AND ALSO ADD CONSTRAINTS TO THE BUTTONS AND TEXT
+    
+    @IBAction func loginButtonTappedPageOne(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginPopupVC") as? LoginPopupViewController else { return }
+        // Important: set presentation style before presenting
+            loginVC.modalPresentationStyle = .pageSheet
+        if let sheet = loginVC.sheetPresentationController {
+                // Choose detents: .medium() shows a partial card height
+                sheet.detents = [.medium()] // or [.custom(...)] or [.medium(), .large()]
+                sheet.preferredCornerRadius = 28
+                sheet.prefersGrabberVisible = true
+                // Optional: prevent pulling to full-screen
+                sheet.prefersScrollingExpandsWhenScrolledToEdge = false
+            }
+
+            present(loginVC, animated: true, completion: nil)
+        }
+
+    }
+    
 
 
     /*
@@ -36,4 +62,4 @@ class WelcomeViewController: UIViewController {
     }
     */
 
-}
+
