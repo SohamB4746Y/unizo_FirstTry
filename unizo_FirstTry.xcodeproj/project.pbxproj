@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57B2FB832EB6B1060026B9BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2FB822EB6B1060026B9BD /* SignUpViewController.swift */; };
+		57B2FBAB2EB7BF540026B9BD /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2FBAA2EB7BF540026B9BD /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57B2FB822EB6B1060026B9BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		57B2FBAA2EB7BF540026B9BD /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		BB05F1DF2EB31A58002C1F7D /* unizo_FirstTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unizo_FirstTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05F1F52EB31A5A002C1F7D /* unizo_FirstTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unizo_FirstTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05F1FF2EB31A5A002C1F7D /* unizo_FirstTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unizo_FirstTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +93,7 @@
 		BB05F1D62EB31A58002C1F7D = {
 			isa = PBXGroup;
 			children = (
-				57B2FB822EB6B1060026B9BD /* SignUpViewController.swift */,
+				57B2FBAA2EB7BF540026B9BD /* ResetPasswordViewController.swift */,
 				BB05F1E12EB31A58002C1F7D /* unizo_FirstTry */,
 				BB05F1F82EB31A5A002C1F7D /* unizo_FirstTryTests */,
 				BB05F2022EB31A5A002C1F7D /* unizo_FirstTryUITests */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B2FB832EB6B1060026B9BD /* SignUpViewController.swift in Sources */,
+				57B2FBAB2EB7BF540026B9BD /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

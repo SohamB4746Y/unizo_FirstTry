@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.swift
+//  ResetPasswordViewController.swift
 //  unizo_FirstTry
 //
 //  Created by Somesh on 02/11/25.
@@ -7,15 +7,18 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class ResetPasswordViewController: UIViewController {
 
-    @IBOutlet weak var roundedSignUp: UIView!
+    @IBOutlet weak var phoneNumberField: UIView!
+    @IBOutlet weak var collegeEmailField: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        roundedSignUp.layer.cornerRadius = 24
-        roundedSignUp.layer.masksToBounds = true
+        phoneNumberField.layer.cornerRadius = 24
+        collegeEmailField.layer.cornerRadius = 24
+        phoneNumberField.layer.masksToBounds = true
+        collegeEmailField.layer.masksToBounds = true
     }
     
 
@@ -28,5 +31,5 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
