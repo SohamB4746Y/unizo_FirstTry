@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eO0-3E-g2H">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gtO-VU-Rs5">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="SplashVC" id="BYZ-38-t0r" customClass="splashViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="V0C-fX-V0m">
@@ -42,11 +42,11 @@
             <objects>
                 <viewController storyboardIdentifier="WelcomeVC" id="p1E-fD-M1J" customClass="WelcomeViewController" customModule="unizo_FirstTry" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pL7-jL-5s9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IC8-1C-uFF">
-                                <rect key="frame" x="34" y="0.0" width="332" height="517"/>
+                                <rect key="frame" x="34" y="0.0" width="353" height="517"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicycle_Image" translatesAutoresizingMaskIntoConstraints="NO" id="Otx-Op-jYW">
                                         <rect key="frame" x="160" y="54" width="164" height="128"/>
@@ -72,7 +72,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yyr-4m-fKq">
-                                <rect key="frame" x="0.0" y="549" width="393" height="303"/>
+                                <rect key="frame" x="0.0" y="549" width="414" height="347"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bB-Ee-orS">
                                         <rect key="frame" x="16" y="67" width="361" height="48"/>
@@ -149,12 +149,258 @@
             </objects>
             <point key="canvasLocation" x="971.7557251908396" y="130.98591549295776"/>
         </scene>
+        <!--Terms and Conditions-->
+        <scene sceneID="sMf-pX-33b">
+            <objects>
+                <viewController id="2NU-mt-Veb" customClass="termsAndConditionsViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Urr-nj-Bgd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wV-K7-3wE">
+                                <rect key="frame" x="56" y="342" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7t8-Yp-fox" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-tn-hsB">
+                                                <rect key="frame" x="16" y="16" width="382" height="654"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">1. Acceptance of Terms
+By downloading, installing, registering, accessing, or using the Student Marketplace App, you agree
+to be bound by these Terms and Conditions and all applicable laws, regulations, and policies. If you
+do not accept or agree with these Terms, you may not access or use the App. Your continued use of
+the App following the publication of updated Terms constitutes your acceptance of those changes.
+2. Description of Service
+The App is a secure, hyper-local online marketplace designed exclusively for current college and
+university students to buy, sell, exchange, or give away pre-owned goods and campus-specific items
+within their verified institution ecosystem. The App provides a platform to facilitate communication
+and transactions between students; it does not directly participate in or guarantee user transactions
+and does not own or hold any inventory.
+3. Eligibility
+• You must be at least 18 years old and an active student currently enrolled in an accredited
+college or university in India.
+• Registration requires a valid, official institutional email address (e.g., ending with .edu.in or
+recognized campus domain), which will be verified by the App.
+• You agree to provide accurate, current, and complete information during registration and to
+update such information as necessary to keep it accurate.
+• The App reserves the right to suspend or terminate the account of any user found ineligible
+or providing false or misleading information at any time without notice.
+4. Account Security and Responsibility
+• You are solely responsible for maintaining the security and confidentiality of your account
+credentials.
+• All activity and transactions occurring under your account will be deemed to have been
+authorized by you.
+• You must notify us immediately of any unauthorized access to your account or breach of
+security.
+• The App shall not be liable for any loss or damage arising from your failure to comply with
+these security obligations.
+5. Permitted and Prohibited Use of Platform
+• The App must not be used for any unlawful purpose or in a manner that violates any local,
+state, or national laws, regulations, or institutional policies.• Only pre-owned goods or services appropriate to student communities — such as textbooks,
+electronics, furniture, bicycles, clothing, and hostel items — may be listed.
+• You agree not to upload, post, or share any prohibited items which include, but are not
+limited to: weapons, stolen property, illicit drugs, counterfeit goods, hazardous or unsafe
+items, personal identification documents, restricted electronics, or anything else that is
+prohibited under law or institutional policy.
+• Activities such as money laundering, promoting scams or ponzi schemes, pyramid or multi-
+level marketing, or selling for non-student third-parties are strictly forbidden.
+• Campus-specific listings must remain exclusive to users of the corresponding campus unless
+authorized for cross-campus access by the administration.
+6. Listing and Content Policies
+• All product listings must contain truthful, accurate, and complete information, including
+clear product photographs, honest descriptions, actual condition, original price (where
+applicable), and asking price.
+• You agree not to misrepresent the nature, condition, ownership, or availability of your items.
+• No listing may contain false, misleading, or inappropriate information, spam, malware,
+offensive material, third-party intellectual property, or external promotional content.
+• The App reserves the right to review, modify, or remove any listing, photo, or post at its sole
+discretion for violations of these Terms, policies, or for protecting user safety.
+7. User Conduct and Community Standards
+• All users must act with honesty, courtesy, and respect at all times.
+• You may not harass, threaten, defame, impersonate, or abuse any user or staff.
+• Unsolicited promotions, repeated spam, posting irrelevant messages, or attempting to direct
+users off-platform is prohibited.
+• Any attempts at fraud, scam, or misrepresentation – including misusing the chat system for
+inappropriate messaging – may result in immediate suspension or report to your institution
+or authorities.
+• Any abusive, discriminatory, or illegal behavior will not be tolerated.
+8. Transactions, Safety, and Payments
+• All buying, selling, and exchanges must be initiated and negotiated through the in-app chat
+and must remain within your campus network.
+• The App recommends meeting in safe, publicly visible locations as approved by your
+institution (such as hostels, libraries, or student centers). The App does not take responsibility for personal safety, lost items, or disputes but may cooperate with campus
+security or authorities in the event of a complaint or incident.
+• Payments and exchanges are the sole responsibility of the users involved. The App does not
+handle escrow, direct payments, or guarantees.
+• Listings that are marked as sold must be promptly updated by the seller.
+9. Fees, Promotions, and Premium Services
+• Standard use of the App, including basic listings and messaging, is free of charge.
+• Premium listing, promotional features, priority search, and additional services may incur
+extra fees as detailed within the App.
+• The App reserves the right to introduce, modify, or withdraw fees for premium features with
+prior notice to users.
+• All fees charged are final, non-refundable, and inclusive of applicable taxes, unless specified
+otherwise or required by law.
+10. Violations, Suspension, and Termination
+• The App reserves the right, without prior notice, to suspend, terminate, or restrict your
+account or access to the App if you violate any Terms, engage in fraudulent, illegal, or
+unsafe activities, or act in any manner that harms other users or the reputation of the
+community.
+• Suspension, deletion, or restriction of accounts may be temporary or permanent depending
+on the severity and frequency of infractions.
+11. Reporting, Takedown, and Disputes
+• Users may report inappropriate, fraudulent, or suspicious listings and behavior via in-app
+reporting tools or the provided contact email.
+• The App will review all complaints and may take down violating listings or suspend
+accounts as necessary.
+• The App is not a party to user transactions or disputes and will not mediate financial or
+product-related disagreements; however, reported safety issues will be escalated as per
+institutional or legal protocols.
+12. Intellectual Property
+• All content uploaded to the App (photos, descriptions, chat, reviews) remains the property of
+the original user. By posting content, you grant the App a perpetual, worldwide, royalty-free
+license to use, reproduce, display, adapt, and distribute such content for operation,
+promotion, or improvement of the App.
+• You must not post copyrighted, trademarked, or proprietary material without authorization.
+13. Platform Changes and Service Availability
+• The App reserves the right to modify, discontinue, or suspend any aspect or feature of the
+App at any time with or without notice.
+• While best efforts are made to maintain platform uptime and protection against data loss, the
+App cannot guarantee continuous, error-free service and will not be liable for any downtime,
+loss of data, or interruption.
+14. Limitation of Liability and Disclaimer
+• The App is an intermediary platform and does not control, verify, or warrant user listings,
+products, or transactions. All risks arising from the use of the App or interactions with other
+users are borne solely by you.
+• Under no circumstances shall the App or its operators be liable for any indirect, incidental,
+consequential, or punitive damages arising from your use of or inability to use the App,
+whether based on warranty, contract, tort, or any other legal theory.
+• All listings and user-provided data are the user’s responsibility; the App makes no
+guarantees regarding availability, accuracy, completeness, or legality.
+15. Amendments to Terms
+• The App may modify, update, or replace these Terms at any time. Users will be notified of
+material changes via in-app communication or registered email. Continued use after changes
+implies acceptance.
+16. Governing Law and Jurisdiction
+• These Terms are governed by the laws of India and the jurisdiction corresponding to your
+registered institution’s location. Any disputes will be subject to the exclusive jurisdiction of
+the courts nearest your institution.
+17. Contact and Grievance Redressal
+• For grievances, complaints, or queries regarding these Terms, please contact:
+◦ Email: [unizo.grievances@gmail.com]
+◦ Designated Grievance Officer: [Soham Bhattacharya]
+18. Severability and Waiver
+• If any provision of these Terms is found invalid or unenforceable, it will not affect the
+validity of the remaining provisions. No waiver of any term shall be deemed a further or
+continuing waiver of such term or any other.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="AFN-tn-hsB" firstAttribute="leading" secondItem="7t8-Yp-fox" secondAttribute="leading" constant="16" id="8zh-Mk-FcE"/>
+                                            <constraint firstAttribute="bottom" secondItem="AFN-tn-hsB" secondAttribute="bottom" constant="16" id="Ljk-tw-p0C"/>
+                                            <constraint firstItem="AFN-tn-hsB" firstAttribute="top" secondItem="7t8-Yp-fox" secondAttribute="top" constant="16" id="RUC-Fq-xZK"/>
+                                            <constraint firstAttribute="trailing" secondItem="AFN-tn-hsB" secondAttribute="trailing" constant="16" id="bA1-iB-FFh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hcM-kO-GkK" firstAttribute="bottom" secondItem="7t8-Yp-fox" secondAttribute="bottom" id="3F1-e1-3U9"/>
+                                    <constraint firstItem="7t8-Yp-fox" firstAttribute="top" secondItem="hcM-kO-GkK" secondAttribute="top" id="AT2-cz-nWt"/>
+                                    <constraint firstItem="7t8-Yp-fox" firstAttribute="leading" secondItem="hcM-kO-GkK" secondAttribute="leading" id="BCp-gt-a8H"/>
+                                    <constraint firstItem="hcM-kO-GkK" firstAttribute="trailing" secondItem="7t8-Yp-fox" secondAttribute="trailing" id="V12-Km-gtm"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="H8e-7s-bPI"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hcM-kO-GkK"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I5y-yZ-ZHU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="I5y-yZ-ZHU" firstAttribute="bottom" secondItem="7wV-K7-3wE" secondAttribute="bottom" id="9mb-bd-x8Z"/>
+                            <constraint firstItem="I5y-yZ-ZHU" firstAttribute="trailing" secondItem="7wV-K7-3wE" secondAttribute="trailing" id="C48-EP-4ol"/>
+                            <constraint firstItem="7wV-K7-3wE" firstAttribute="leading" secondItem="I5y-yZ-ZHU" secondAttribute="leading" id="K4L-E3-7Y4"/>
+                            <constraint firstItem="7wV-K7-3wE" firstAttribute="top" secondItem="I5y-yZ-ZHU" secondAttribute="top" id="QLU-Ra-Ns2"/>
+                            <constraint firstItem="7t8-Yp-fox" firstAttribute="width" secondItem="Urr-nj-Bgd" secondAttribute="width" id="qql-db-WVl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Terms and Conditions" id="yIc-hR-pfg"/>
+                    <connections>
+                        <outlet property="textView" destination="AFN-tn-hsB" id="f6k-DD-TWc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2c-vU-izt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2548.8549618320608" y="-691.54929577464793"/>
+        </scene>
+        <!--Privacy Policy-->
+        <scene sceneID="ho9-AY-hqY">
+            <objects>
+                <viewController title="Privacy Policy" id="aBI-md-s0o" customClass="PrivacyPolicyViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j1d-tj-BPI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-GC-wMh">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-64-haS" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-y4-ppa">
+                                                <rect key="frame" x="87" y="279" width="240" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="1jy-y4-ppa" firstAttribute="top" secondItem="qEi-64-haS" secondAttribute="top" constant="16" id="FiQ-mz-1Li"/>
+                                            <constraint firstAttribute="trailing" secondItem="1jy-y4-ppa" secondAttribute="trailing" constant="16" id="lOG-wl-TYh"/>
+                                            <constraint firstItem="1jy-y4-ppa" firstAttribute="leading" secondItem="qEi-64-haS" secondAttribute="leading" constant="16" id="lPF-4t-I7a"/>
+                                            <constraint firstAttribute="bottom" secondItem="1jy-y4-ppa" secondAttribute="bottom" constant="16" id="zXT-9u-7JX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="P3V-xf-kBa" firstAttribute="trailing" secondItem="qEi-64-haS" secondAttribute="trailing" id="SfM-if-P7k"/>
+                                    <constraint firstItem="qEi-64-haS" firstAttribute="leading" secondItem="P3V-xf-kBa" secondAttribute="leading" id="YpM-g0-HAw"/>
+                                    <constraint firstItem="P3V-xf-kBa" firstAttribute="bottom" secondItem="qEi-64-haS" secondAttribute="bottom" id="bQy-VP-AMW"/>
+                                    <constraint firstItem="qEi-64-haS" firstAttribute="top" secondItem="P3V-xf-kBa" secondAttribute="top" id="crD-wG-fII"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ZZ0-BM-N5p"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="P3V-xf-kBa"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5e5-uM-0pY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ccU-GC-wMh" firstAttribute="top" secondItem="5e5-uM-0pY" secondAttribute="top" id="1iF-X6-8Vp"/>
+                            <constraint firstItem="qEi-64-haS" firstAttribute="width" secondItem="j1d-tj-BPI" secondAttribute="width" id="BOW-LC-mnE"/>
+                            <constraint firstItem="ccU-GC-wMh" firstAttribute="leading" secondItem="5e5-uM-0pY" secondAttribute="leading" id="f2S-UQ-dJy"/>
+                            <constraint firstItem="5e5-uM-0pY" firstAttribute="bottom" secondItem="ccU-GC-wMh" secondAttribute="bottom" id="lVO-co-FNz"/>
+                            <constraint firstItem="5e5-uM-0pY" firstAttribute="trailing" secondItem="ccU-GC-wMh" secondAttribute="trailing" id="y0f-kx-efw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lb8-KH-g0V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Erc-lT-5HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5050.7246376811599" y="-680.35714285714278"/>
+        </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="ojc-4p-3aK">
             <objects>
                 <viewController id="eO0-3E-g2H" customClass="ResetPasswordViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0BP-hs-IxN">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGM-me-iPx">
@@ -252,7 +498,7 @@
             <objects>
                 <viewController id="yBX-9N-qen" customClass="SignUpViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rb5-ty-T6I">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSL-fM-Y6p">
@@ -283,7 +529,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rv9-pB-0mq">
-                                <rect key="frame" x="0.0" y="278" width="393" height="574"/>
+                                <rect key="frame" x="0.0" y="248" width="414" height="648"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Up Your Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKr-yv-qUQ">
                                         <rect key="frame" x="16" y="16" width="361" height="28.666666666666671"/>
@@ -347,26 +593,26 @@
             <objects>
                 <viewController storyboardIdentifier="LoginPopupVC" id="ahX-hj-Buc" customClass="LoginPopupViewController" customModule="unizo_FirstTry" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Ga-yd-muT">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYq-Yq-h5Y">
-                                <rect key="frame" x="0.0" y="425" width="393" height="427"/>
+                                <rect key="frame" x="0.0" y="395" width="414" height="501"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login To Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8j-yu-66s">
-                                        <rect key="frame" x="75" y="8" width="242" height="29"/>
+                                        <rect key="frame" x="75" y="8" width="263" height="103"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tN3-Sg-5Og">
-                                        <rect key="frame" x="16" y="53" width="361" height="98"/>
+                                        <rect key="frame" x="16" y="127" width="382" height="98"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="FuV-E1-6uv">
-                                                <rect key="frame" x="7" y="4" width="346" height="90.333333333333329"/>
+                                                <rect key="frame" x="8" y="4" width="366" height="90"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="College Registration Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fkZ-tr-dym">
-                                                        <rect key="frame" x="0.0" y="0.0" width="346" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="QWB-rB-Wa8"/>
                                                         </constraints>
@@ -374,60 +620,45 @@
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0M-CS-Vox">
-                                                        <rect key="frame" x="0.0" y="60" width="346" height="1"/>
+                                                        <rect key="frame" x="0.0" y="60" width="366" height="1"/>
                                                         <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="ggq-hU-9bZ"/>
                                                         </constraints>
                                                     </view>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="College Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="grN-8R-Ahx">
-                                                        <rect key="frame" x="0.0" y="87" width="346" height="3.3333333333333286"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="346" id="8Fh-yd-X0f"/>
-                                                            <constraint firstAttribute="height" constant="34" id="Ikz-fT-ss2"/>
-                                                        </constraints>
+                                                        <rect key="frame" x="0.0" y="87" width="366" height="3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="grN-8R-Ahx" secondAttribute="trailing" id="3U8-4y-UIA"/>
-                                                    <constraint firstItem="S0M-CS-Vox" firstAttribute="leading" secondItem="FuV-E1-6uv" secondAttribute="leading" id="5QO-pg-Hyl"/>
-                                                    <constraint firstItem="fkZ-tr-dym" firstAttribute="leading" secondItem="FuV-E1-6uv" secondAttribute="leading" id="CLo-VT-KNV"/>
-                                                    <constraint firstItem="grN-8R-Ahx" firstAttribute="leading" secondItem="FuV-E1-6uv" secondAttribute="leading" id="FEJ-8z-znz"/>
-                                                    <constraint firstItem="S0M-CS-Vox" firstAttribute="top" secondItem="FuV-E1-6uv" secondAttribute="top" constant="44.670000000000002" id="RgE-2A-LDf"/>
-                                                    <constraint firstAttribute="trailing" secondItem="fkZ-tr-dym" secondAttribute="trailing" id="WuJ-Zg-mhS"/>
                                                     <constraint firstItem="S0M-CS-Vox" firstAttribute="top" secondItem="fkZ-tr-dym" secondAttribute="bottom" constant="5" id="XGV-D4-mKb"/>
-                                                    <constraint firstItem="fkZ-tr-dym" firstAttribute="top" secondItem="FuV-E1-6uv" secondAttribute="top" constant="5" id="Zk3-rZ-Tl9"/>
-                                                    <constraint firstAttribute="trailing" secondItem="S0M-CS-Vox" secondAttribute="trailing" id="Ztn-Wb-OGW"/>
-                                                    <constraint firstAttribute="bottom" secondItem="S0M-CS-Vox" secondAttribute="bottom" constant="44.670000000000002" id="gDh-fP-okm"/>
-                                                    <constraint firstItem="grN-8R-Ahx" firstAttribute="top" secondItem="S0M-CS-Vox" secondAttribute="bottom" constant="5" id="hg5-Tr-inF"/>
-                                                    <constraint firstAttribute="bottom" secondItem="grN-8R-Ahx" secondAttribute="bottom" constant="5" id="kPO-qh-4Oo"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="leading" secondItem="tN3-Sg-5Og" secondAttribute="leading" constant="7" id="Hq3-FB-6Tx"/>
-                                            <constraint firstAttribute="trailing" secondItem="FuV-E1-6uv" secondAttribute="trailing" constant="8" id="L33-h3-sl2"/>
-                                            <constraint firstAttribute="bottom" secondItem="FuV-E1-6uv" secondAttribute="bottom" constant="3.6699999999999999" id="Qnb-jh-A2T"/>
-                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="top" secondItem="tN3-Sg-5Og" secondAttribute="top" constant="4" id="hjD-Ps-xjs"/>
+                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="centerY" secondItem="tN3-Sg-5Og" secondAttribute="centerY" id="69o-kc-Y9n"/>
+                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="centerX" secondItem="tN3-Sg-5Og" secondAttribute="centerX" id="DAT-TA-DNL"/>
+                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="top" secondItem="tN3-Sg-5Og" secondAttribute="top" constant="4" id="DAb-Of-qiR"/>
+                                            <constraint firstItem="FuV-E1-6uv" firstAttribute="trailing" secondItem="tN3-Sg-5Og" secondAttribute="trailingMargin" id="sw8-Co-dsi"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdO-EL-xUx">
-                                        <rect key="frame" x="184" y="159" width="24" height="21"/>
+                                        <rect key="frame" x="184" y="233" width="45" height="21"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-CV-U3c">
-                                        <rect key="frame" x="16" y="188" width="361" height="100"/>
+                                        <rect key="frame" x="16" y="262" width="382" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3AF-UF-EXE">
-                                                <rect key="frame" x="8" y="4" width="345" height="92"/>
+                                                <rect key="frame" x="8" y="4" width="366" height="92"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JZ0-cx-hE5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="345" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="Q4o-oO-gQs"/>
                                                         </constraints>
@@ -435,14 +666,14 @@
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jne-Bz-a9G">
-                                                        <rect key="frame" x="0.0" y="34" width="345" height="1"/>
+                                                        <rect key="frame" x="0.0" y="34" width="366" height="1"/>
                                                         <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="iS9-7S-LKM"/>
                                                         </constraints>
                                                     </view>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KMy-lR-PYE">
-                                                        <rect key="frame" x="0.0" y="35" width="345" height="57"/>
+                                                        <rect key="frame" x="0.0" y="35" width="366" height="57"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="YQP-zc-1QI"/>
                                                         </constraints>
@@ -502,17 +733,16 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gy-NI-uAc">
-                                        <rect key="frame" x="134" y="296" width="125" height="22"/>
+                                        <rect key="frame" x="134" y="370" width="146" height="29"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7i-RM-Or4">
-                                        <rect key="frame" x="16" y="326" width="344" height="48"/>
+                                        <rect key="frame" x="16" y="400" width="344" height="48"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="6zv-1Y-G01"/>
-                                            <constraint firstAttribute="width" constant="344" id="liD-k0-1S1"/>
+                                            <constraint firstAttribute="width" constant="344" id="A9f-FC-NyL"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login">
@@ -533,8 +763,10 @@
                                     <constraint firstItem="I7b-CV-U3c" firstAttribute="top" secondItem="fdO-EL-xUx" secondAttribute="bottom" constant="8" id="3Rt-ZN-DP2"/>
                                     <constraint firstAttribute="bottom" secondItem="5gy-NI-uAc" secondAttribute="bottom" constant="102" id="932-Fw-vPs"/>
                                     <constraint firstAttribute="trailing" secondItem="I7b-CV-U3c" secondAttribute="trailing" constant="16" id="9td-E7-DwO"/>
-                                    <constraint firstAttribute="trailing" secondItem="w7i-RM-Or4" secondAttribute="trailing" constant="16" id="ADg-iz-5qI"/>
                                     <constraint firstAttribute="bottom" secondItem="fdO-EL-xUx" secondAttribute="bottom" constant="247" id="AzQ-mx-ITJ"/>
+                                    <constraint firstItem="w7i-RM-Or4" firstAttribute="top" secondItem="5gy-NI-uAc" secondAttribute="bottom" constant="1" id="F8a-sp-c2U"/>
+                                    <constraint firstItem="w7i-RM-Or4" firstAttribute="leading" secondItem="I7b-CV-U3c" secondAttribute="leading" id="HjY-EI-Xp3"/>
+                                    <constraint firstAttribute="trailing" secondItem="w7i-RM-Or4" secondAttribute="trailing" constant="54" id="IbJ-tO-d5Z"/>
                                     <constraint firstItem="tN3-Sg-5Og" firstAttribute="top" secondItem="F8j-yu-66s" secondAttribute="bottom" constant="16" id="L9D-TR-arJ"/>
                                     <constraint firstItem="5gy-NI-uAc" firstAttribute="leading" secondItem="qYq-Yq-h5Y" secondAttribute="leading" constant="134" id="MYH-AY-vkg"/>
                                     <constraint firstItem="I7b-CV-U3c" firstAttribute="leading" secondItem="qYq-Yq-h5Y" secondAttribute="leading" constant="16" id="Mf9-AW-QAE"/>
@@ -547,12 +779,10 @@
                                     <constraint firstItem="5gy-NI-uAc" firstAttribute="top" secondItem="I7b-CV-U3c" secondAttribute="bottom" constant="8" id="ZgX-6l-3uA"/>
                                     <constraint firstItem="F8j-yu-66s" firstAttribute="top" secondItem="qYq-Yq-h5Y" secondAttribute="top" constant="8" id="cFi-Qw-eyE"/>
                                     <constraint firstAttribute="bottom" secondItem="I7b-CV-U3c" secondAttribute="bottom" constant="139" id="h6N-nh-oVQ"/>
-                                    <constraint firstItem="w7i-RM-Or4" firstAttribute="leading" secondItem="qYq-Yq-h5Y" secondAttribute="leading" constant="16" id="hUC-dX-7W0"/>
                                     <constraint firstAttribute="trailing" secondItem="F8j-yu-66s" secondAttribute="trailing" constant="76" id="jbm-Bm-FWK"/>
                                     <constraint firstAttribute="trailing" secondItem="tN3-Sg-5Og" secondAttribute="trailing" constant="16" id="qrN-Ib-Qpa"/>
                                     <constraint firstAttribute="bottom" secondItem="F8j-yu-66s" secondAttribute="bottom" constant="390" id="tZH-zu-Mqv"/>
-                                    <constraint firstAttribute="bottom" secondItem="w7i-RM-Or4" secondAttribute="bottom" constant="53" id="vaH-yq-P0U"/>
-                                    <constraint firstItem="w7i-RM-Or4" firstAttribute="top" secondItem="5gy-NI-uAc" secondAttribute="bottom" constant="8" id="wd6-E8-fy8"/>
+                                    <constraint firstAttribute="bottom" secondItem="w7i-RM-Or4" secondAttribute="bottom" constant="53" id="zMg-My-OeA"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -580,6 +810,42 @@
             </objects>
             <point key="canvasLocation" x="972" y="804"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nLe-LP-Nz0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Ib-Po-uwR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zNb-x5-WSI">
+                        <rect key="frame" x="0.0" y="88" width="414" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2NU-mt-Veb" kind="relationship" relationship="rootViewController" id="x3V-0K-4KV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2Q-Ni-FBr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622.1374045801526" y="-691.54929577464793"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jhM-oC-wMt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gtO-VU-Rs5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xPf-Np-vi1">
+                        <rect key="frame" x="0.0" y="88" width="414" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aBI-md-s0o" kind="relationship" relationship="rootViewController" id="vm6-E4-sg1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJ7-d5-ua7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4140.579710144928" y="-680.35714285714278"/>
+        </scene>
     </scenes>
     <resources>
         <image name="TshirtImage" width="576" height="576"/>
@@ -603,6 +869,9 @@
         <namedColor name="loginButtonBorder">
             <color red="0.094117647058823528" green="0.60392156862745094" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="placeholderTextColor">
             <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
