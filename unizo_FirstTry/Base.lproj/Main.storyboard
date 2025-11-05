@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gtO-VU-Rs5">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Ib-Po-uwR">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="SplashVC" id="BYZ-38-t0r" customClass="splashViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="V0C-fX-V0m">
@@ -42,11 +42,11 @@
             <objects>
                 <viewController storyboardIdentifier="WelcomeVC" id="p1E-fD-M1J" customClass="WelcomeViewController" customModule="unizo_FirstTry" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pL7-jL-5s9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IC8-1C-uFF">
-                                <rect key="frame" x="34" y="0.0" width="353" height="517"/>
+                                <rect key="frame" x="34" y="0.0" width="341" height="517"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicycle_Image" translatesAutoresizingMaskIntoConstraints="NO" id="Otx-Op-jYW">
                                         <rect key="frame" x="160" y="54" width="164" height="128"/>
@@ -72,7 +72,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yyr-4m-fKq">
-                                <rect key="frame" x="0.0" y="549" width="414" height="347"/>
+                                <rect key="frame" x="0.0" y="549" width="402" height="325"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bB-Ee-orS">
                                         <rect key="frame" x="16" y="67" width="361" height="48"/>
@@ -154,17 +154,17 @@
             <objects>
                 <viewController id="2NU-mt-Veb" customClass="termsAndConditionsViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Urr-nj-Bgd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wV-K7-3wE">
                                 <rect key="frame" x="56" y="342" width="240" height="128"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7t8-Yp-fox" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="402" height="628"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-tn-hsB">
-                                                <rect key="frame" x="16" y="16" width="382" height="654"/>
+                                                <rect key="frame" x="16" y="16" width="370" height="596"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">1. Acceptance of Terms
 By downloading, installing, registering, accessing, or using the Student Marketplace App, you agree
@@ -342,21 +342,145 @@ continuing waiver of such term or any other.</string>
             <objects>
                 <viewController title="Privacy Policy" id="aBI-md-s0o" customClass="PrivacyPolicyViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j1d-tj-BPI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-GC-wMh">
                                 <rect key="frame" x="87" y="384" width="240" height="128"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-64-haS" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="402" height="628"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-y4-ppa">
-                                                <rect key="frame" x="87" y="279" width="240" height="128"/>
+                                                <rect key="frame" x="16" y="16" width="370" height="596"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <string key="text">1. Introduction and Scope
+This Privacy Policy describes how Student Marketplace App collects, uses, discloses, and protects
+your personal information. Our priority is to ensure a transparent and secure experience for every
+student. This Policy applies to all users who access or use the App and covers information
+submitted during registration, while browsing, communicating, making transactions, and post-
+transaction activities within the App.
+2. Types of Information Collected
+A. Personal Identification Data
+• Full name, campus email address, profile photo, institution affiliation (college/university,
+year of study, program).
+• Mobile number, when provided for communication or verification.
+• Unique student identifiers or roll numbers to validate campus access.
+B. Account and Usage Data
+• Username, encrypted login credentials, session details.
+• Date of registration, account activity, and usage logs.
+C. Listing and Transactional Data
+• Item listings: descriptions, photos, pricing, and status updates (available/sold/given away).
+• Search queries, browsing history, applied filters, and favorites.
+• Messages and chat records between users.
+D. Device and Technical Data
+• Device type, model, operating system, app version.
+• IP address, device identifiers, crash logs, and performance diagnostics.
+• Location data (campus-based GPS, when enabled for safe meetup recommendations).
+E. Cookies and Analytics
+• Usage of cookies/local storage to maintain user sessions, remember preferences, manage
+login states, and gather analytics for improving services.
+• Information collected via third-party analytics tools (de-identified for analysis).
+3. Methods of Data Collection
+• Data provided directly by you during registration, profile updates, listing items, messaging,
+or interacting with notifications and support.
+• Data generated automatically as you use the App, including device, technical, and
+behavioral data.
+• Data received from affiliated campus databases for user verification (subject to explicit
+consent).
+• Cookies and similar technologies used for seamless login, analytics, and personalized
+recommendations.
+4. Use of Data
+A. Main Purposes
+• To verify user identity and restrict access strictly to genuine campus members.
+• To allow users to create, manage, and browse listings, and facilitate transactions within
+campus networks.
+• To enable in-app chat, communication, and safe meetup recommendations.
+• To personalize user experience, deliver AI-powered recommendations, and provide relevant
+category-based updates.
+• To analyze aggregated and anonymized trends for better platform performance and user
+safety.
+B. Safety, Security, and Compliance
+• To monitor suspicious activity, enforce prohibited item policies, and prevent fraud or
+misuse.
+• For required legal, regulatory, or institutional obligations, including responding to official
+requests from authorities.
+• To support safety initiatives, including escalation to campus authorities when necessary
+(e.g., in cases of harassment, threats, or dangerous goods).
+C. Service Improvement
+• To debug, improve, and optimize platform features and user interface.
+• To solicit feedback, conduct surveys, and communicate improvements or policy changes.
+5. Sharing and Disclosure of Data
+A. With Other Users
+• Limited profile information (first name, campus, verified badge, profile image) may be
+displayed to other users in connection with listings and chat.• Detailed personal information, email address, phone number, or academic details are never
+disclosed to non-authorized users.
+B. With Third-Parties
+• No personal information is ever sold, rented, or shared with external advertisers or
+marketers.
+• Data may be shared with campus administrators, IT staff, or institutional authorities for
+verification or as required by regulations.
+• Third-party service providers may process data strictly for hosting, analytics, or technical
+support — subject to confidentiality and data security safeguards.
+• Data will be disclosed to legal authorities only in accordance with applicable law,
+regulation, or mandatory requests.
+C. Aggregated and Anonymized Data
+• Non-identifiable, aggregated statistics may be published for transparency and reporting (e.g.,
+total items exchanged, sustainability impact) without revealing personal identities.
+6. Data Retention and Deletion
+• Personal and transactional data are retained for as long as your account is active or until
+required for regulatory compliance, fraud prevention, or legal investigations.
+• You may request deletion of your account and associated data at any time, subject to
+required retention periods for lawful purposes.
+• Deleted data is securely erased from active databases and backups following industry-
+standard policies.
+• If your account is terminated for misuse, data may be retained for institutional or security
+review for a limited time.
+7. Security Measures
+A. Technical Protections
+• Login/registration via institutional email or Apple ID, encrypted authentication, and data
+transmission over secure protocols (SSL/TLS).
+• Restricted internal access; only authorized admin team can view or manage personal data.
+• Regular security audits, penetration tests, and prompt vulnerability patching.
+B. User Responsibilities
+• Users must keep login credentials secure and avoid sharing them.
+• Immediate reporting of security incidents, lost devices, or unauthorized access is encouraged.
+8. User Rights
+A. Access and Correction
+• Users have the right to access, update, or correct their profile, listings, or privacy settings
+directly from the App.
+• All requests for data correction will be fulfilled within a reasonable time frame.
+B. Withdrawal of Consent and Erasure
+• You may withdraw your consent for non-essential uses and opt out of promotional messages
+or surveys.
+• Account deletion requests can be submitted via App settings or customer support.
+C. Data Portability
+• On written request, a copy of your personal and transactional data can be provided in a
+portable format, subject to identity verification.
+9. Children’s Data and Underage Users
+• The App is intended solely for users age 18 and above.
+• Accounts of underage individuals found using the App will be deleted, and their data erased.
+• The App does not knowingly collect data from children.
+10. International Data Transfers
+• Personal data may be processed in servers located within India; international transfer is
+conducted only as permitted by law and with appropriate safeguards.
+11. Changes to Privacy Policy
+• We may update this Privacy Policy periodically to reflect changes in law, technology, or our
+practices.
+• All substantive amendments will be notified via email or in-app notifications. Continued
+usage of the App after changes implies acceptance of the new Policy.
+12. Grievance Officer &amp; Contact Information
+• For privacy concerns, questions, or requests, please contact:
+◦ Email: [Insert official privacy support email]
+◦ Grievance Officer: [Insert Name, Office Address, Contact Number]• We endeavor to resolve all privacy grievances promptly and fairly, in compliance with
+applicable law.
+13. Consent
+• By using the Student Marketplace App, you consent to the collection, use, storage, sharing,
+and processing of your information as described in this Privacy Policy.
+• For specific features (location services, analytics, contact sharing) additional in-app consent
+will be obtained before activation.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -390,6 +514,9 @@ continuing waiver of such term or any other.</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Lb8-KH-g0V"/>
+                    <connections>
+                        <outlet property="textView" destination="1jy-y4-ppa" id="YRP-o5-1cl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Erc-lT-5HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -400,7 +527,7 @@ continuing waiver of such term or any other.</string>
             <objects>
                 <viewController id="eO0-3E-g2H" customClass="ResetPasswordViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0BP-hs-IxN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGM-me-iPx">
@@ -498,7 +625,7 @@ continuing waiver of such term or any other.</string>
             <objects>
                 <viewController id="yBX-9N-qen" customClass="SignUpViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rb5-ty-T6I">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSL-fM-Y6p">
@@ -529,7 +656,7 @@ continuing waiver of such term or any other.</string>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rv9-pB-0mq">
-                                <rect key="frame" x="0.0" y="248" width="414" height="648"/>
+                                <rect key="frame" x="0.0" y="284" width="402" height="590"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Up Your Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKr-yv-qUQ">
                                         <rect key="frame" x="16" y="16" width="361" height="28.666666666666671"/>
@@ -593,26 +720,26 @@ continuing waiver of such term or any other.</string>
             <objects>
                 <viewController storyboardIdentifier="LoginPopupVC" id="ahX-hj-Buc" customClass="LoginPopupViewController" customModule="unizo_FirstTry" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Ga-yd-muT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYq-Yq-h5Y">
-                                <rect key="frame" x="0.0" y="395" width="414" height="501"/>
+                                <rect key="frame" x="0.0" y="431" width="402" height="443"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login To Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8j-yu-66s">
-                                        <rect key="frame" x="75" y="8" width="263" height="103"/>
+                                        <rect key="frame" x="75" y="8" width="251" height="45"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tN3-Sg-5Og">
-                                        <rect key="frame" x="16" y="127" width="382" height="98"/>
+                                        <rect key="frame" x="16" y="69" width="370" height="98"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="FuV-E1-6uv">
-                                                <rect key="frame" x="8" y="4" width="366" height="90"/>
+                                                <rect key="frame" x="8" y="4" width="354" height="90"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="College Registration Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fkZ-tr-dym">
-                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="QWB-rB-Wa8"/>
                                                         </constraints>
@@ -620,14 +747,14 @@ continuing waiver of such term or any other.</string>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0M-CS-Vox">
-                                                        <rect key="frame" x="0.0" y="60" width="366" height="1"/>
+                                                        <rect key="frame" x="0.0" y="60" width="354" height="1"/>
                                                         <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="ggq-hU-9bZ"/>
                                                         </constraints>
                                                     </view>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="College Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="grN-8R-Ahx">
-                                                        <rect key="frame" x="0.0" y="87" width="366" height="3"/>
+                                                        <rect key="frame" x="0.0" y="87" width="354" height="3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -646,19 +773,19 @@ continuing waiver of such term or any other.</string>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdO-EL-xUx">
-                                        <rect key="frame" x="184" y="233" width="45" height="21"/>
+                                        <rect key="frame" x="184" y="175" width="33" height="21"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-CV-U3c">
-                                        <rect key="frame" x="16" y="262" width="382" height="100"/>
+                                        <rect key="frame" x="16" y="204" width="370" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3AF-UF-EXE">
-                                                <rect key="frame" x="8" y="4" width="366" height="92"/>
+                                                <rect key="frame" x="8" y="4" width="354" height="92"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JZ0-cx-hE5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="Q4o-oO-gQs"/>
                                                         </constraints>
@@ -666,14 +793,14 @@ continuing waiver of such term or any other.</string>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jne-Bz-a9G">
-                                                        <rect key="frame" x="0.0" y="34" width="366" height="1"/>
+                                                        <rect key="frame" x="0.0" y="34" width="354" height="1"/>
                                                         <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="iS9-7S-LKM"/>
                                                         </constraints>
                                                     </view>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KMy-lR-PYE">
-                                                        <rect key="frame" x="0.0" y="35" width="366" height="57"/>
+                                                        <rect key="frame" x="0.0" y="35" width="354" height="57"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="YQP-zc-1QI"/>
                                                         </constraints>
@@ -733,14 +860,14 @@ continuing waiver of such term or any other.</string>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gy-NI-uAc">
-                                        <rect key="frame" x="134" y="370" width="146" height="29"/>
+                                        <rect key="frame" x="134" y="312" width="134" height="29"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7i-RM-Or4">
-                                        <rect key="frame" x="16" y="400" width="344" height="48"/>
+                                        <rect key="frame" x="16" y="342" width="344" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="344" id="A9f-FC-NyL"/>
                                         </constraints>
@@ -816,7 +943,7 @@ continuing waiver of such term or any other.</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Ib-Po-uwR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zNb-x5-WSI">
-                        <rect key="frame" x="0.0" y="88" width="414" height="54"/>
+                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -828,13 +955,13 @@ continuing waiver of such term or any other.</string>
             </objects>
             <point key="canvasLocation" x="1622.1374045801526" y="-691.54929577464793"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Privacy Policy-->
         <scene sceneID="jhM-oC-wMt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gtO-VU-Rs5" sceneMemberID="viewController">
+                <navigationController title="Privacy Policy" automaticallyAdjustsScrollViewInsets="NO" id="gtO-VU-Rs5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xPf-Np-vi1">
-                        <rect key="frame" x="0.0" y="88" width="414" height="54"/>
+                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
