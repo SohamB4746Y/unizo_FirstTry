@@ -561,7 +561,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYq-Yq-h5Y">
-                                <rect key="frame" x="0.0" y="425" width="393" height="427"/>
+                                <rect key="frame" x="0.0" y="357" width="393" height="427"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login To Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8j-yu-66s">
                                         <rect key="frame" x="75" y="8" width="242" height="29"/>
@@ -586,7 +586,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0M-CS-Vox">
-                                                <rect key="frame" x="8" y="49.666666666666629" width="345" height="1"/>
+                                                <rect key="frame" x="8" y="49.666666666666686" width="345" height="1"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="X8F-KH-5W1"/>
@@ -594,7 +594,7 @@
                                                 </constraints>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="College Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="grN-8R-Ahx">
-                                                <rect key="frame" x="8" y="58.333333333333371" width="345" height="34"/>
+                                                <rect key="frame" x="8" y="58.333333333333314" width="345" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="ah8-cO-LYi"/>
                                                     <constraint firstAttribute="width" constant="345" id="r9J-bt-dqw"/>
@@ -713,7 +713,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="F8j-yu-66s" secondAttribute="trailing" constant="76" id="3GG-w8-5f9"/>
                                     <constraint firstAttribute="trailing" secondItem="I7b-CV-U3c" secondAttribute="trailing" constant="16" id="7gX-S5-WVN"/>
-                                    <constraint firstAttribute="width" constant="393" id="7hJ-fY-xjA"/>
                                     <constraint firstAttribute="bottom" secondItem="F8j-yu-66s" secondAttribute="bottom" constant="390" id="CAM-NU-wMq"/>
                                     <constraint firstItem="5gy-NI-uAc" firstAttribute="top" secondItem="I7b-CV-U3c" secondAttribute="bottom" constant="8" id="Fl2-DY-v5x"/>
                                     <constraint firstItem="fdO-EL-xUx" firstAttribute="leading" secondItem="qYq-Yq-h5Y" secondAttribute="leading" constant="184" id="LYw-FG-QNz"/>
@@ -739,9 +738,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qYq-Yq-h5Y" firstAttribute="leading" secondItem="spg-mY-9ZM" secondAttribute="leading" id="24z-l6-dRY"/>
-                            <constraint firstItem="qYq-Yq-h5Y" firstAttribute="top" secondItem="spg-mY-9ZM" secondAttribute="top" constant="307" id="Icb-xd-nJ0"/>
-                            <constraint firstAttribute="bottom" secondItem="qYq-Yq-h5Y" secondAttribute="bottom" id="LjT-8e-JYE"/>
+                            <constraint firstItem="qYq-Yq-h5Y" firstAttribute="bottom" secondItem="spg-mY-9ZM" secondAttribute="bottom" id="MEA-pl-od5"/>
                             <constraint firstItem="qYq-Yq-h5Y" firstAttribute="trailing" secondItem="spg-mY-9ZM" secondAttribute="trailing" id="ReF-wN-raM"/>
+                            <constraint firstItem="qYq-Yq-h5Y" firstAttribute="bottom" secondItem="spg-mY-9ZM" secondAttribute="bottom" id="kHL-8d-N6p"/>
                         </constraints>
                     </view>
                     <connections>
