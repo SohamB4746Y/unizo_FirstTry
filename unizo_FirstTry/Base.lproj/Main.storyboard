@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Ib-Po-uwR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gtO-VU-Rs5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
@@ -149,194 +149,6 @@
             </objects>
             <point key="canvasLocation" x="971.7557251908396" y="130.98591549295776"/>
         </scene>
-        <!--Terms and Conditions-->
-        <scene sceneID="sMf-pX-33b">
-            <objects>
-                <viewController id="2NU-mt-Veb" customClass="termsAndConditionsViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Urr-nj-Bgd">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wV-K7-3wE">
-                                <rect key="frame" x="56" y="342" width="240" height="128"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7t8-Yp-fox" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="402" height="628"/>
-                                        <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-tn-hsB">
-                                                <rect key="frame" x="16" y="16" width="370" height="596"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">1. Acceptance of Terms
-By downloading, installing, registering, accessing, or using the Student Marketplace App, you agree
-to be bound by these Terms and Conditions and all applicable laws, regulations, and policies. If you
-do not accept or agree with these Terms, you may not access or use the App. Your continued use of
-the App following the publication of updated Terms constitutes your acceptance of those changes.
-2. Description of Service
-The App is a secure, hyper-local online marketplace designed exclusively for current college and
-university students to buy, sell, exchange, or give away pre-owned goods and campus-specific items
-within their verified institution ecosystem. The App provides a platform to facilitate communication
-and transactions between students; it does not directly participate in or guarantee user transactions
-and does not own or hold any inventory.
-3. Eligibility
-• You must be at least 18 years old and an active student currently enrolled in an accredited
-college or university in India.
-• Registration requires a valid, official institutional email address (e.g., ending with .edu.in or
-recognized campus domain), which will be verified by the App.
-• You agree to provide accurate, current, and complete information during registration and to
-update such information as necessary to keep it accurate.
-• The App reserves the right to suspend or terminate the account of any user found ineligible
-or providing false or misleading information at any time without notice.
-4. Account Security and Responsibility
-• You are solely responsible for maintaining the security and confidentiality of your account
-credentials.
-• All activity and transactions occurring under your account will be deemed to have been
-authorized by you.
-• You must notify us immediately of any unauthorized access to your account or breach of
-security.
-• The App shall not be liable for any loss or damage arising from your failure to comply with
-these security obligations.
-5. Permitted and Prohibited Use of Platform
-• The App must not be used for any unlawful purpose or in a manner that violates any local,
-state, or national laws, regulations, or institutional policies.• Only pre-owned goods or services appropriate to student communities — such as textbooks,
-electronics, furniture, bicycles, clothing, and hostel items — may be listed.
-• You agree not to upload, post, or share any prohibited items which include, but are not
-limited to: weapons, stolen property, illicit drugs, counterfeit goods, hazardous or unsafe
-items, personal identification documents, restricted electronics, or anything else that is
-prohibited under law or institutional policy.
-• Activities such as money laundering, promoting scams or ponzi schemes, pyramid or multi-
-level marketing, or selling for non-student third-parties are strictly forbidden.
-• Campus-specific listings must remain exclusive to users of the corresponding campus unless
-authorized for cross-campus access by the administration.
-6. Listing and Content Policies
-• All product listings must contain truthful, accurate, and complete information, including
-clear product photographs, honest descriptions, actual condition, original price (where
-applicable), and asking price.
-• You agree not to misrepresent the nature, condition, ownership, or availability of your items.
-• No listing may contain false, misleading, or inappropriate information, spam, malware,
-offensive material, third-party intellectual property, or external promotional content.
-• The App reserves the right to review, modify, or remove any listing, photo, or post at its sole
-discretion for violations of these Terms, policies, or for protecting user safety.
-7. User Conduct and Community Standards
-• All users must act with honesty, courtesy, and respect at all times.
-• You may not harass, threaten, defame, impersonate, or abuse any user or staff.
-• Unsolicited promotions, repeated spam, posting irrelevant messages, or attempting to direct
-users off-platform is prohibited.
-• Any attempts at fraud, scam, or misrepresentation – including misusing the chat system for
-inappropriate messaging – may result in immediate suspension or report to your institution
-or authorities.
-• Any abusive, discriminatory, or illegal behavior will not be tolerated.
-8. Transactions, Safety, and Payments
-• All buying, selling, and exchanges must be initiated and negotiated through the in-app chat
-and must remain within your campus network.
-• The App recommends meeting in safe, publicly visible locations as approved by your
-institution (such as hostels, libraries, or student centers). The App does not take responsibility for personal safety, lost items, or disputes but may cooperate with campus
-security or authorities in the event of a complaint or incident.
-• Payments and exchanges are the sole responsibility of the users involved. The App does not
-handle escrow, direct payments, or guarantees.
-• Listings that are marked as sold must be promptly updated by the seller.
-9. Fees, Promotions, and Premium Services
-• Standard use of the App, including basic listings and messaging, is free of charge.
-• Premium listing, promotional features, priority search, and additional services may incur
-extra fees as detailed within the App.
-• The App reserves the right to introduce, modify, or withdraw fees for premium features with
-prior notice to users.
-• All fees charged are final, non-refundable, and inclusive of applicable taxes, unless specified
-otherwise or required by law.
-10. Violations, Suspension, and Termination
-• The App reserves the right, without prior notice, to suspend, terminate, or restrict your
-account or access to the App if you violate any Terms, engage in fraudulent, illegal, or
-unsafe activities, or act in any manner that harms other users or the reputation of the
-community.
-• Suspension, deletion, or restriction of accounts may be temporary or permanent depending
-on the severity and frequency of infractions.
-11. Reporting, Takedown, and Disputes
-• Users may report inappropriate, fraudulent, or suspicious listings and behavior via in-app
-reporting tools or the provided contact email.
-• The App will review all complaints and may take down violating listings or suspend
-accounts as necessary.
-• The App is not a party to user transactions or disputes and will not mediate financial or
-product-related disagreements; however, reported safety issues will be escalated as per
-institutional or legal protocols.
-12. Intellectual Property
-• All content uploaded to the App (photos, descriptions, chat, reviews) remains the property of
-the original user. By posting content, you grant the App a perpetual, worldwide, royalty-free
-license to use, reproduce, display, adapt, and distribute such content for operation,
-promotion, or improvement of the App.
-• You must not post copyrighted, trademarked, or proprietary material without authorization.
-13. Platform Changes and Service Availability
-• The App reserves the right to modify, discontinue, or suspend any aspect or feature of the
-App at any time with or without notice.
-• While best efforts are made to maintain platform uptime and protection against data loss, the
-App cannot guarantee continuous, error-free service and will not be liable for any downtime,
-loss of data, or interruption.
-14. Limitation of Liability and Disclaimer
-• The App is an intermediary platform and does not control, verify, or warrant user listings,
-products, or transactions. All risks arising from the use of the App or interactions with other
-users are borne solely by you.
-• Under no circumstances shall the App or its operators be liable for any indirect, incidental,
-consequential, or punitive damages arising from your use of or inability to use the App,
-whether based on warranty, contract, tort, or any other legal theory.
-• All listings and user-provided data are the user’s responsibility; the App makes no
-guarantees regarding availability, accuracy, completeness, or legality.
-15. Amendments to Terms
-• The App may modify, update, or replace these Terms at any time. Users will be notified of
-material changes via in-app communication or registered email. Continued use after changes
-implies acceptance.
-16. Governing Law and Jurisdiction
-• These Terms are governed by the laws of India and the jurisdiction corresponding to your
-registered institution’s location. Any disputes will be subject to the exclusive jurisdiction of
-the courts nearest your institution.
-17. Contact and Grievance Redressal
-• For grievances, complaints, or queries regarding these Terms, please contact:
-◦ Email: [unizo.grievances@gmail.com]
-◦ Designated Grievance Officer: [Soham Bhattacharya]
-18. Severability and Waiver
-• If any provision of these Terms is found invalid or unenforceable, it will not affect the
-validity of the remaining provisions. No waiver of any term shall be deemed a further or
-continuing waiver of such term or any other.</string>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="AFN-tn-hsB" firstAttribute="leading" secondItem="7t8-Yp-fox" secondAttribute="leading" constant="16" id="8zh-Mk-FcE"/>
-                                            <constraint firstAttribute="bottom" secondItem="AFN-tn-hsB" secondAttribute="bottom" constant="16" id="Ljk-tw-p0C"/>
-                                            <constraint firstItem="AFN-tn-hsB" firstAttribute="top" secondItem="7t8-Yp-fox" secondAttribute="top" constant="16" id="RUC-Fq-xZK"/>
-                                            <constraint firstAttribute="trailing" secondItem="AFN-tn-hsB" secondAttribute="trailing" constant="16" id="bA1-iB-FFh"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="hcM-kO-GkK" firstAttribute="bottom" secondItem="7t8-Yp-fox" secondAttribute="bottom" id="3F1-e1-3U9"/>
-                                    <constraint firstItem="7t8-Yp-fox" firstAttribute="top" secondItem="hcM-kO-GkK" secondAttribute="top" id="AT2-cz-nWt"/>
-                                    <constraint firstItem="7t8-Yp-fox" firstAttribute="leading" secondItem="hcM-kO-GkK" secondAttribute="leading" id="BCp-gt-a8H"/>
-                                    <constraint firstItem="hcM-kO-GkK" firstAttribute="trailing" secondItem="7t8-Yp-fox" secondAttribute="trailing" id="V12-Km-gtm"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="H8e-7s-bPI"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="hcM-kO-GkK"/>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="I5y-yZ-ZHU"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="I5y-yZ-ZHU" firstAttribute="bottom" secondItem="7wV-K7-3wE" secondAttribute="bottom" id="9mb-bd-x8Z"/>
-                            <constraint firstItem="I5y-yZ-ZHU" firstAttribute="trailing" secondItem="7wV-K7-3wE" secondAttribute="trailing" id="C48-EP-4ol"/>
-                            <constraint firstItem="7wV-K7-3wE" firstAttribute="leading" secondItem="I5y-yZ-ZHU" secondAttribute="leading" id="K4L-E3-7Y4"/>
-                            <constraint firstItem="7wV-K7-3wE" firstAttribute="top" secondItem="I5y-yZ-ZHU" secondAttribute="top" id="QLU-Ra-Ns2"/>
-                            <constraint firstItem="7t8-Yp-fox" firstAttribute="width" secondItem="Urr-nj-Bgd" secondAttribute="width" id="qql-db-WVl"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Terms and Conditions" id="yIc-hR-pfg"/>
-                    <connections>
-                        <outlet property="textView" destination="AFN-tn-hsB" id="f6k-DD-TWc"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2c-vU-izt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2548.8549618320608" y="-691.54929577464793"/>
-        </scene>
         <!--Privacy Policy-->
         <scene sceneID="ho9-AY-hqY">
             <objects>
@@ -345,16 +157,12 @@ continuing waiver of such term or any other.</string>
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-GC-wMh">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-64-haS" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="402" height="628"/>
-                                        <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-y4-ppa">
-                                                <rect key="frame" x="16" y="16" width="370" height="596"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">1. Introduction and Scope
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-y4-ppa">
+                                <rect key="frame" x="10" y="168" width="382" height="628"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="PLw-3M-2pc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hwb-GW-ZTm"/>
+                                <string key="text">1. Introduction and Scope
 This Privacy Policy describes how Student Marketplace App collects, uses, discloses, and protects
 your personal information. Our priority is to ensure a transparent and secure experience for every
 student. This Policy applies to all users who access or use the App and covers information
@@ -479,38 +287,18 @@ applicable law.
 and processing of your information as described in this Privacy Policy.
 • For specific features (location services, analytics, contact sharing) additional in-app consent
 will be obtained before activation.</string>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="1jy-y4-ppa" firstAttribute="top" secondItem="qEi-64-haS" secondAttribute="top" constant="16" id="FiQ-mz-1Li"/>
-                                            <constraint firstAttribute="trailing" secondItem="1jy-y4-ppa" secondAttribute="trailing" constant="16" id="lOG-wl-TYh"/>
-                                            <constraint firstItem="1jy-y4-ppa" firstAttribute="leading" secondItem="qEi-64-haS" secondAttribute="leading" constant="16" id="lPF-4t-I7a"/>
-                                            <constraint firstAttribute="bottom" secondItem="1jy-y4-ppa" secondAttribute="bottom" constant="16" id="zXT-9u-7JX"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="P3V-xf-kBa" firstAttribute="trailing" secondItem="qEi-64-haS" secondAttribute="trailing" id="SfM-if-P7k"/>
-                                    <constraint firstItem="qEi-64-haS" firstAttribute="leading" secondItem="P3V-xf-kBa" secondAttribute="leading" id="YpM-g0-HAw"/>
-                                    <constraint firstItem="P3V-xf-kBa" firstAttribute="bottom" secondItem="qEi-64-haS" secondAttribute="bottom" id="bQy-VP-AMW"/>
-                                    <constraint firstItem="qEi-64-haS" firstAttribute="top" secondItem="P3V-xf-kBa" secondAttribute="top" id="crD-wG-fII"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="ZZ0-BM-N5p"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="P3V-xf-kBa"/>
-                            </scrollView>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5e5-uM-0pY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ccU-GC-wMh" firstAttribute="top" secondItem="5e5-uM-0pY" secondAttribute="top" id="1iF-X6-8Vp"/>
-                            <constraint firstItem="qEi-64-haS" firstAttribute="width" secondItem="j1d-tj-BPI" secondAttribute="width" id="BOW-LC-mnE"/>
-                            <constraint firstItem="ccU-GC-wMh" firstAttribute="leading" secondItem="5e5-uM-0pY" secondAttribute="leading" id="f2S-UQ-dJy"/>
-                            <constraint firstItem="5e5-uM-0pY" firstAttribute="bottom" secondItem="ccU-GC-wMh" secondAttribute="bottom" id="lVO-co-FNz"/>
-                            <constraint firstItem="5e5-uM-0pY" firstAttribute="trailing" secondItem="ccU-GC-wMh" secondAttribute="trailing" id="y0f-kx-efw"/>
+                            <constraint firstItem="5e5-uM-0pY" firstAttribute="top" secondItem="1jy-y4-ppa" secondAttribute="top" constant="10" id="gfi-bF-dlN"/>
+                            <constraint firstItem="5e5-uM-0pY" firstAttribute="bottom" secondItem="1jy-y4-ppa" secondAttribute="bottom" constant="10" id="idb-Ld-HUF"/>
+                            <constraint firstItem="1jy-y4-ppa" firstAttribute="leading" secondItem="5e5-uM-0pY" secondAttribute="leading" constant="10" id="lIY-g0-txY"/>
+                            <constraint firstItem="5e5-uM-0pY" firstAttribute="trailing" secondItem="1jy-y4-ppa" secondAttribute="trailing" constant="10" id="ugW-8d-36P"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Lb8-KH-g0V"/>
@@ -520,7 +308,7 @@ will be obtained before activation.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Erc-lT-5HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5050.7246376811599" y="-680.35714285714278"/>
+            <point key="canvasLocation" x="6888.059701492537" y="-681.00686498855828"/>
         </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="ojc-4p-3aK">
@@ -937,24 +725,6 @@ will be obtained before activation.</string>
             </objects>
             <point key="canvasLocation" x="972" y="804"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="nLe-LP-Nz0">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Ib-Po-uwR" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zNb-x5-WSI">
-                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2NU-mt-Veb" kind="relationship" relationship="rootViewController" id="x3V-0K-4KV"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b2Q-Ni-FBr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1622.1374045801526" y="-691.54929577464793"/>
-        </scene>
         <!--Privacy Policy-->
         <scene sceneID="jhM-oC-wMt">
             <objects>
@@ -971,7 +741,187 @@ will be obtained before activation.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lJ7-d5-ua7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4140.579710144928" y="-680.35714285714278"/>
+            <point key="canvasLocation" x="5979.1044776119397" y="-681.00686498855828"/>
+        </scene>
+        <!--Terms and Conditions-->
+        <scene sceneID="jRs-rO-hd6">
+            <objects>
+                <viewController id="gQ0-y8-fFg" customClass="termsAndConditionsViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YjH-1S-zAT">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EqF-vb-fzP">
+                                <rect key="frame" x="10" y="168" width="382" height="628"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">1. Acceptance of Terms
+By downloading, installing, registering, accessing, or using the Student Marketplace App, you agree
+to be bound by these Terms and Conditions and all applicable laws, regulations, and policies. If you
+do not accept or agree with these Terms, you may not access or use the App. Your continued use of
+the App following the publication of updated Terms constitutes your acceptance of those changes.
+2. Description of Service
+The App is a secure, hyper-local online marketplace designed exclusively for current college and
+university students to buy, sell, exchange, or give away pre-owned goods and campus-specific items
+within their verified institution ecosystem. The App provides a platform to facilitate communication
+and transactions between students; it does not directly participate in or guarantee user transactions
+and does not own or hold any inventory.
+3. Eligibility
+• You must be at least 18 years old and an active student currently enrolled in an accredited
+college or university in India.
+• Registration requires a valid, official institutional email address (e.g., ending with .edu.in or
+recognized campus domain), which will be verified by the App.
+• You agree to provide accurate, current, and complete information during registration and to
+update such information as necessary to keep it accurate.
+• The App reserves the right to suspend or terminate the account of any user found ineligible
+or providing false or misleading information at any time without notice.
+4. Account Security and Responsibility
+• You are solely responsible for maintaining the security and confidentiality of your account
+credentials.
+• All activity and transactions occurring under your account will be deemed to have been
+authorized by you.
+• You must notify us immediately of any unauthorized access to your account or breach of
+security.
+• The App shall not be liable for any loss or damage arising from your failure to comply with
+these security obligations.
+5. Permitted and Prohibited Use of Platform
+• The App must not be used for any unlawful purpose or in a manner that violates any local,
+state, or national laws, regulations, or institutional policies.• Only pre-owned goods or services appropriate to student communities — such as textbooks,
+electronics, furniture, bicycles, clothing, and hostel items — may be listed.
+• You agree not to upload, post, or share any prohibited items which include, but are not
+limited to: weapons, stolen property, illicit drugs, counterfeit goods, hazardous or unsafe
+items, personal identification documents, restricted electronics, or anything else that is
+prohibited under law or institutional policy.
+• Activities such as money laundering, promoting scams or ponzi schemes, pyramid or multi-
+level marketing, or selling for non-student third-parties are strictly forbidden.
+• Campus-specific listings must remain exclusive to users of the corresponding campus unless
+authorized for cross-campus access by the administration.
+6. Listing and Content Policies
+• All product listings must contain truthful, accurate, and complete information, including
+clear product photographs, honest descriptions, actual condition, original price (where
+applicable), and asking price.
+• You agree not to misrepresent the nature, condition, ownership, or availability of your items.
+• No listing may contain false, misleading, or inappropriate information, spam, malware,
+offensive material, third-party intellectual property, or external promotional content.
+• The App reserves the right to review, modify, or remove any listing, photo, or post at its sole
+discretion for violations of these Terms, policies, or for protecting user safety.
+7. User Conduct and Community Standards
+• All users must act with honesty, courtesy, and respect at all times.
+• You may not harass, threaten, defame, impersonate, or abuse any user or staff.
+• Unsolicited promotions, repeated spam, posting irrelevant messages, or attempting to direct
+users off-platform is prohibited.
+• Any attempts at fraud, scam, or misrepresentation – including misusing the chat system for
+inappropriate messaging – may result in immediate suspension or report to your institution
+or authorities.
+• Any abusive, discriminatory, or illegal behavior will not be tolerated.
+8. Transactions, Safety, and Payments
+• All buying, selling, and exchanges must be initiated and negotiated through the in-app chat
+and must remain within your campus network.
+• The App recommends meeting in safe, publicly visible locations as approved by your
+institution (such as hostels, libraries, or student centers). The App does not take responsibility for personal safety, lost items, or disputes but may cooperate with campus
+security or authorities in the event of a complaint or incident.
+• Payments and exchanges are the sole responsibility of the users involved. The App does not
+handle escrow, direct payments, or guarantees.
+• Listings that are marked as sold must be promptly updated by the seller.
+9. Fees, Promotions, and Premium Services
+• Standard use of the App, including basic listings and messaging, is free of charge.
+• Premium listing, promotional features, priority search, and additional services may incur
+extra fees as detailed within the App.
+• The App reserves the right to introduce, modify, or withdraw fees for premium features with
+prior notice to users.
+• All fees charged are final, non-refundable, and inclusive of applicable taxes, unless specified
+otherwise or required by law.
+10. Violations, Suspension, and Termination
+• The App reserves the right, without prior notice, to suspend, terminate, or restrict your
+account or access to the App if you violate any Terms, engage in fraudulent, illegal, or
+unsafe activities, or act in any manner that harms other users or the reputation of the
+community.
+• Suspension, deletion, or restriction of accounts may be temporary or permanent depending
+on the severity and frequency of infractions.
+11. Reporting, Takedown, and Disputes
+• Users may report inappropriate, fraudulent, or suspicious listings and behavior via in-app
+reporting tools or the provided contact email.
+• The App will review all complaints and may take down violating listings or suspend
+accounts as necessary.
+• The App is not a party to user transactions or disputes and will not mediate financial or
+product-related disagreements; however, reported safety issues will be escalated as per
+institutional or legal protocols.
+12. Intellectual Property
+• All content uploaded to the App (photos, descriptions, chat, reviews) remains the property of
+the original user. By posting content, you grant the App a perpetual, worldwide, royalty-free
+license to use, reproduce, display, adapt, and distribute such content for operation,
+promotion, or improvement of the App.
+• You must not post copyrighted, trademarked, or proprietary material without authorization.
+13. Platform Changes and Service Availability
+• The App reserves the right to modify, discontinue, or suspend any aspect or feature of the
+App at any time with or without notice.
+• While best efforts are made to maintain platform uptime and protection against data loss, the
+App cannot guarantee continuous, error-free service and will not be liable for any downtime,
+loss of data, or interruption.
+14. Limitation of Liability and Disclaimer
+• The App is an intermediary platform and does not control, verify, or warrant user listings,
+products, or transactions. All risks arising from the use of the App or interactions with other
+users are borne solely by you.
+• Under no circumstances shall the App or its operators be liable for any indirect, incidental,
+consequential, or punitive damages arising from your use of or inability to use the App,
+whether based on warranty, contract, tort, or any other legal theory.
+• All listings and user-provided data are the user’s responsibility; the App makes no
+guarantees regarding availability, accuracy, completeness, or legality.
+15. Amendments to Terms
+• The App may modify, update, or replace these Terms at any time. Users will be notified of
+material changes via in-app communication or registered email. Continued use after changes
+implies acceptance.
+16. Governing Law and Jurisdiction
+• These Terms are governed by the laws of India and the jurisdiction corresponding to your
+registered institution’s location. Any disputes will be subject to the exclusive jurisdiction of
+the courts nearest your institution.
+17. Contact and Grievance Redressal
+• For grievances, complaints, or queries regarding these Terms, please contact:
+◦ Email: [unizo.grievances@gmail.com]
+◦ Designated Grievance Officer: [Soham Bhattacharya]
+18. Severability and Waiver
+• If any provision of these Terms is found invalid or unenforceable, it will not affect the
+validity of the remaining provisions. No waiver of any term shall be deemed a further or
+continuing waiver of such term or any other.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZPN-ER-5P1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZPN-ER-5P1" firstAttribute="top" secondItem="EqF-vb-fzP" secondAttribute="top" constant="10" id="SQr-Pf-TFg"/>
+                            <constraint firstItem="ZPN-ER-5P1" firstAttribute="bottom" secondItem="EqF-vb-fzP" secondAttribute="bottom" constant="10" id="TEo-KZ-ns2"/>
+                            <constraint firstItem="EqF-vb-fzP" firstAttribute="leading" secondItem="ZPN-ER-5P1" secondAttribute="leading" constant="10" id="l54-KC-ksh"/>
+                            <constraint firstItem="ZPN-ER-5P1" firstAttribute="trailing" secondItem="EqF-vb-fzP" secondAttribute="trailing" constant="10" id="yTc-Bf-Bpi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Terms and Conditions" id="M19-Kw-IjP"/>
+                    <connections>
+                        <outlet property="textView" destination="EqF-vb-fzP" id="Tbe-Xs-dbY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdu-de-Uoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5091.0447761194027" y="-693.36384439359267"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tCV-5a-3Lv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VGc-3j-Igg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ctg-JH-yXp">
+                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gQ0-y8-fFg" kind="relationship" relationship="rootViewController" id="mg8-pq-djO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Eh-JI-h6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4171.6417910447763" y="-693.36384439359267"/>
         </scene>
     </scenes>
     <resources>
