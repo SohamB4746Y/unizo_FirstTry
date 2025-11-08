@@ -1,2 +1,5 @@
 */xcuserdata/
 *.xcuserstate
+*.xcuserstate
+*.xcuserdata/
+.DS_Store
