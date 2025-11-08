@@ -1,4 +1,4 @@
-# Project README
+# Project Unizo.
 
 Welcome to the project repository. This README provides an overview and instructions to get started.
 
