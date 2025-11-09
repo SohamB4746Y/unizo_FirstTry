@@ -47,6 +47,15 @@ class WelcomeViewController: UIViewController {
 
             present(loginVC, animated: true, completion: nil)
         }
+    
+    @IBAction func signUpWithEmailTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let signUpVC = storyboard.instantiateViewController(withIdentifier: "SignUpVC") as! SignUpViewController
+        
+        navigationController?.pushViewController(signUpVC, animated: true)
+    }
+    
+    
 
     }
     

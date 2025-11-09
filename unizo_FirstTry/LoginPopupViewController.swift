@@ -36,6 +36,20 @@ class LoginPopupViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     
+    @IBAction func forgotPasswordTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let resetVC = storyboard.instantiateViewController(withIdentifier: "ResetPasswordVC") as! ResetPasswordViewController
+        
+        resetVC.modalPresentationStyle = .pageSheet
+            if let sheet = resetVC.sheetPresentationController {
+                sheet.detents = [.medium()]
+                sheet.preferredCornerRadius = 28
+                sheet.prefersGrabberVisible = true
+            }
+        present(resetVC, animated: true)
+    }
+    
+    
 //    override func viewWillAppear(_ animated: Bool) {
 //            super.viewWillAppear(animated)
 //            // slide up the popup container from bottom
