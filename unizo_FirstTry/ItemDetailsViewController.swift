@@ -37,24 +37,27 @@ class ItemDetailsViewController: UIViewController {
         super.viewDidLoad()
         title = "Cart" // appears in existing nav bar
 
-         // Style buttons
-         addToCartButton.layer.cornerRadius = 12
-         addToCartButton.layer.borderWidth = 1
-         addToCartButton.layer.borderColor = UIColor.systemTeal.cgColor
-         addToCartButton.backgroundColor = .systemBackground
-         addToCartButton.setTitleColor(.systemTeal, for: .normal)
+        let deepTeal = UIColor(hex: "#184B63")
 
-         buyNowButton.layer.cornerRadius = 12
-         buyNowButton.backgroundColor = .systemTeal
-         buyNowButton.setTitleColor(.white, for: .normal)
+        // Add to Cart (outlined)
+        addToCartButton.layer.cornerRadius = 12
+        addToCartButton.layer.borderWidth = 1.5
+        addToCartButton.layer.borderColor = deepTeal.cgColor
+        addToCartButton.backgroundColor = .white
+        addToCartButton.setTitleColor(deepTeal, for: .normal)
+
+        // Buy Now (filled)
+        buyNowButton.layer.cornerRadius = 12
+        buyNowButton.backgroundColor = deepTeal
+        buyNowButton.setTitleColor(.white, for: .normal)
 
          // Fill data (if provided)
         productImageView.image = UIImage(named: "cap_image") ?? UIImage(named: "placeholder")
 
-         categoryLabel.text = productCategory ?? "Category"
-         titleLabel.text = productName ?? "Product Name"
-         priceLabel.text = productPrice ?? "₹0"
-         ratingLabel.text = productRating ?? "0.0"
+         categoryLabel.text = productCategory ?? "Fashion"
+         titleLabel.text = productName ?? "Under Armour Cap"
+         priceLabel.text = productPrice ?? "₹500"
+         ratingLabel.text = productRating ?? "4.2"
          descriptionTextView.text = productDescription ?? "Description..."
          
          // Make description read-only & let scrollview handle scrolling
@@ -81,4 +84,18 @@ class ItemDetailsViewController: UIViewController {
     }
     */
 
+}
+extension UIColor {
+    convenience init(hex: String) {
+        var cString = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+        if cString.hasPrefix("#") { cString.removeFirst() }
+        var rgbValue: UInt64 = 0
+        Scanner(string: cString).scanHexInt64(&rgbValue)
+        self.init(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: 1.0
+        )
+    }
 }

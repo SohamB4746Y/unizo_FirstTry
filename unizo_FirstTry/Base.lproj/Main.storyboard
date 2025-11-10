@@ -358,7 +358,7 @@ will be obtained before activation.</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wR-Ba-LTt">
                                                 <rect key="frame" x="0.0" y="174.99999999999997" width="402" height="334.33333333333326"/>
-                                                <mutableString key="text">Stay cool, focused, and stylish with the Under Armour Performance Cap — built for athletes who demand comfort and performance in every move. Designed with UA’s signature HeatGear® fabric, this cap wicks away sweat to keep you dry and light, whether you’re training, running, or just on the go.
+                                                <string key="text">Stay cool, focused, and stylish with the Under Armour Performance Cap — built for athletes who demand comfort and performance in every move. Designed with UA’s signature HeatGear® fabric, this cap wicks away sweat to keep you dry and light, whether you’re training, running, or just on the go.
 
 Features:
 Lightweight &amp; Breathable: The structured front panels maintain shape while the curved visor offers a sleek, athletic look.
@@ -371,7 +371,7 @@ Specifications:
 Material: 84% Polyester, 16% Elastane
 Fit: Stretch-fit / Adjustable (depending on variant)
 Care: Hand wash cold, line dry
-Ideal for: Training, Running, Outdoor Sports, Everyday Wear</mutableString>
+Ideal for: Training, Running, Outdoor Sports, Everyday Wear</string>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
