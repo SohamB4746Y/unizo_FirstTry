@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dOD-Qk-gw1">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
+>>>>>>> origin/main
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Splash View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home View Controller-->
+        <scene sceneID="79F-bA-e8M">
             <objects>
+<<<<<<< HEAD
+                <viewController id="dOD-Qk-gw1" customClass="HomeViewController" customModule="unizo_FirstTry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lha-6G-fei">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="N58-cT-0R7"/>
+=======
                 <viewController storyboardIdentifier="SplashVC" id="BYZ-38-t0r" customClass="splashViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
@@ -397,15 +408,15 @@ will be obtained before activation.</string>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bCl-iH-Ugq"/>
+>>>>>>> origin/main
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="collegeEmailField" destination="rcH-qc-eYD" id="QtY-tq-jfI"/>
-                        <outlet property="phoneNumberField" destination="5Ri-Al-JWX" id="9jQ-5f-4Gu"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c9F-dq-xFF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67B-Cw-h2I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+            <point key="canvasLocation" x="2500" y="804"/>
+=======
             <point key="canvasLocation" x="1740" y="131"/>
         </scene>
         <!--Sign Up View Controller-->
@@ -724,6 +735,7 @@ will be obtained before activation.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGy-dZ-AU0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="804"/>
+>>>>>>> origin/main
         </scene>
         <!--Privacy Policy-->
         <scene sceneID="jhM-oC-wMt">
@@ -925,6 +937,8 @@ continuing waiver of such term or any other.</string>
         </scene>
     </scenes>
     <resources>
+<<<<<<< HEAD
+=======
         <image name="TshirtImage" width="576" height="576"/>
         <image name="bicycle_Image" width="576" height="576"/>
         <image name="bookImage" width="576" height="576"/>
@@ -961,6 +975,7 @@ continuing waiver of such term or any other.</string>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+>>>>>>> origin/main
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
