@@ -33,6 +33,9 @@
                 <constraint firstItem="tKO-da-y7a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="IDX-PM-Rea"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tKO-da-y7a" secondAttribute="bottom" id="y5C-wt-eQA"/>
             </constraints>
+            <connections>
+                <outlet property="collectionView" destination="tKO-da-y7a" id="tif-vA-wcE"/>
+            </connections>
             <point key="canvasLocation" x="138" y="142"/>
         </view>
     </objects>
